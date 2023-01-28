@@ -90,6 +90,7 @@ a {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	margin-left: 100px;
 }
 
 .header .barra-busqueda input {
@@ -253,6 +254,7 @@ a {
 
 	.header .contenedor-logo .logo span {
 		display: inline;
+		
 	}
 
 	.header .barra-busqueda input {
