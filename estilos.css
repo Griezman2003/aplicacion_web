@@ -29,9 +29,11 @@ a {
 	grid-template-columns: minmax(300px, 18%) auto;
 }
 .video{
-	width: 20pxpx;
-	height: 500px;
-     position: absolute;
+	width: 20px;
+	height: 100px;
+     position: relative;
+	 
+
 }
 
 .header {
