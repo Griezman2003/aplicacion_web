@@ -1,52 +1,30 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Página Principal | reproductor de musica</title>
-	<link rel="stylesheet" href="estilos.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Reproductor de musica </title>
+    <link rel="stylesheet" href="estilos.css">
 </head>
+
 <body>
-	<div class="contenedor active" id="contenedor">
-		<header class="header">
-			<div class="contenedor-logo">
-				<button id="boton-menu" class="boton-menu"><i class="fas fa-bars"></i></button>
-				<a href="#" class="1"><i class="fas fa-play"></i> <span></span></a>
-			</div>
+    <main class="container">
+        <section class="main-video">
+            <video src="videos/manipulate text background.mp4" controls autoplay muted></video>
+            <h3 class="title">top mejores videos</h3>
+        </section>
 
-			<div class="barra-busqueda">
-				<input type="text" placeholder="Buscar">
-				<button type="submit"><i class="fas fa-search"></i></button>
-			</div>
+        <section class="video-playlist">
+            <h3 class="title">top mejores videos </h3>
+            <p>10 lessions &nbsp; . &nbsp; 50m 48s</p>
+            <div class="videos">
 
-			<div class="botones-header">
-				<button><i class="fas fa-upload"></i></button>
-
-				<a href="#" class="avatar"><img src="img/1.png" alt=""></a>
-			</div>
-			
-		</header>
-
-		<nav class="menu-lateral">
-			<a href="#" class="active"><i class="fas fa-home"></i> Página Principal</a>
-			
-		</nav>
-
-		<main class="main">
-			<h3 class="titulo">Videos Recomendados</h3>
-			<div class="grid-videos">
-				<div class="video">
-					<video width="600" height="400" controls muted autoplay>
-						<source src="img/1.mp4" type="video/mp4">
-					</video>	
-				</div>
-				
-			</div>
-		</main>
-	</div>
-	
-	<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
-	<script src="js/main.js"></script>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
 </body>
+
 </html>
