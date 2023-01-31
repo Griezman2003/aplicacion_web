@@ -30,6 +30,19 @@ body {
     padding: .5rem 1rem;
     text-transform: capitalize;
 }
+.header{
+	position: absolute;
+	text-align: center;
+	bottom: 570px;
+	left: 450px;
+	right: 420px;
+	margin: auto;
+	margin-top: 20px;
+	border: 2px solid red;
+	color: black;
+	
+	
+}
 
 @media screen and (max-width: 990px) {
     .container {
@@ -131,4 +144,22 @@ body {
 
     font: 100 1rem sans-serif;
     padding: 0 .5rem;
+}
+.titulo2{
+	position: absolute;
+	color: #131314;
+	top: 520px;
+	left: 450px;
+	right: 420px;
+	text-align: center;
+
+}
+.pie_pagina{
+	position: absolute;
+	top: 559px;
+	left: 50px;
+	right: 50px;
+	text-align: center;
+	background-color: #808091;
+
 }
