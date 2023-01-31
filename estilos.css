@@ -38,10 +38,10 @@ body {
 	right: 420px;
 	margin: auto;
 	margin-top: 20px;
-	border: 2px solid red;
 	color: black;
-	
-	
+}
+.header h1:hover{
+	color:yellow
 }
 
 @media screen and (max-width: 990px) {
